@@ -14,6 +14,8 @@ namespace SnakeAndLadderGame
             GamePlay play = new GamePlay();
             play.Game();
             play.DieRoll();
+            play.CheckOption();
+           
             Console.ReadLine();
         }
     }
